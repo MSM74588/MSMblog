@@ -1,13 +1,13 @@
 module.exports = {
-  pathPrefix: "/leonids",
+  pathPrefix: "/",
   siteMetadata: {
-    title: `Leonids`,
+    title: `MandraSaptak Mandal`,
     author: {
-      name: `@ry_zou`,
-      summary: `web dev`,
+      name: `@msm`,
+      summary: `student dev`,
     },
-    description: `A simple, fixed sidebar two columns Gatsby.js blog starter.`,
-    siteUrl: `https://renyuanz.github.io/leonids`,
+    description: `Hi! I am MandraSaptak Mandal aka "MSM".`,
+    siteUrl: `https://github.com/MSM74588`,
     social: {
       twitter: `ry_zou`,
     },
@@ -53,10 +53,10 @@ module.exports = {
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     {
-      resolve: `gatsby-plugin-google-analytics`,
-      options: {
-        trackingId: `UA-62251910-1`,
-      },
+      // resolve: `gatsby-plugin-google-analytics`,
+      // options: {
+      //   trackingId: `UA-62251910-1`,
+      // },
     },
     `gatsby-plugin-feed`,
     {
